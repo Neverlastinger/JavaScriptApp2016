@@ -4,7 +4,7 @@ This is a skeleton for creating JavaScript application in 2016. It will most pro
 
 ## What's the idea
 
-Write all your code (JavaScript, SASS & HTML) in src/ then build in dist/.
+Write all your code (JavaScript, SASS & HTML) in src/, then build in dist/.
 
 ## How to build the project
 > - Install node.js
