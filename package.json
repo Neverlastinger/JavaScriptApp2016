@@ -1,0 +1,25 @@
+{
+  "name": "JavaScriptApp2016",
+  "version": "1.0.0",
+  "description": "A skeleton for starting a new JavaScript application in 2016",
+  "scripts": {
+    "rollup": "rollup --config --watch --sourcemap",
+    "copy-html": "copyfiles -u 1 src/index.html dist",
+    "copy-static-resources": "copyfiles -u 1 src/index.html src/img/* src/_polyfills/* dist",
+    "delete-images": "rm -R dist/img",
+    "build-sass": "node-sass --include-path scss src/sass/main.scss dist/styles.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
+    "watch-html": "nodemon --watch src/index.html -x \"npm run copy-html\"",
+    "browsersync": "browser-sync start --files dist/styles.css --server dist --port 3001",
+    "start": "npm run rollup | npm run delete-images | npm run copy-static-resources | npm run build-sass | npm run watch-sass | npm run watch-html | npm run browsersync"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "copyfiles": "^1.0.0",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.10.0",
+    "rollup": "^0.34.7",
+    "rollup-watch": "^2.5.0"
+  },
+  "author": "Radoslav Popov"
+}

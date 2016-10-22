@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.11
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json D:\00_PersonalKnowledgeBase\GitHub\JavaScriptApp2016\package.json
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'D:\\00_PersonalKnowledgeBase\\GitHub\\JavaScriptApp2016',
+7 verbose install   [ 'browser-sync',
+7 verbose install     'copyfiles',
+7 verbose install     'node-sass',
+7 verbose install     'nodemon',
+7 verbose install     'rollup',
+7 verbose install     'rollup-watch' ] ]
+8 verbose from cache D:\00_PersonalKnowledgeBase\GitHub\JavaScriptApp2016\package.json
+9 info preinstall JavaScriptApp2016@1.0.0
+10 verbose from cache D:\00_PersonalKnowledgeBase\GitHub\JavaScriptApp2016\package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'browser-sync@^2.14.0', null ]
+13 silly cache add name=undefined spec="browser-sync@^2.14.0" args=["browser-sync@^2.14.0",null]
+14 verbose parsed url { pathname: 'browser-sync@^2.14.0',
+14 verbose parsed url   path: 'browser-sync@^2.14.0',
+14 verbose parsed url   href: 'browser-sync@^2.14.0' }
+15 silly cache add name="browser-sync" spec="^2.14.0" args=["browser-sync","^2.14.0"]
+16 verbose parsed url { pathname: '^2.14.0', path: '^2.14.0', href: '^2.14.0' }
+17 verbose addNamed [ 'browser-sync', '^2.14.0' ]
+18 verbose addNamed [ null, null ]
+19 verbose cache add [ 'copyfiles@^1.0.0', null ]
+20 silly cache add name=undefined spec="copyfiles@^1.0.0" args=["copyfiles@^1.0.0",null]
+21 verbose parsed url { pathname: 'copyfiles@^1.0.0',
+21 verbose parsed url   path: 'copyfiles@^1.0.0',
+21 verbose parsed url   href: 'copyfiles@^1.0.0' }
+22 silly cache add name="copyfiles" spec="^1.0.0" args=["copyfiles","^1.0.0"]
+23 verbose parsed url { pathname: '^1.0.0', path: '^1.0.0', href: '^1.0.0' }
+24 verbose addNamed [ 'copyfiles', '^1.0.0' ]
+25 verbose addNamed [ null, null ]
+26 verbose cache add [ 'node-sass@^3.8.0', null ]
+27 silly cache add name=undefined spec="node-sass@^3.8.0" args=["node-sass@^3.8.0",null]
+28 verbose parsed url { pathname: 'node-sass@^3.8.0',
+28 verbose parsed url   path: 'node-sass@^3.8.0',
+28 verbose parsed url   href: 'node-sass@^3.8.0' }
+29 silly cache add name="node-sass" spec="^3.8.0" args=["node-sass","^3.8.0"]
+30 verbose parsed url { pathname: '^3.8.0', path: '^3.8.0', href: '^3.8.0' }
+31 verbose addNamed [ 'node-sass', '^3.8.0' ]
+32 verbose addNamed [ null, null ]
+33 verbose cache add [ 'nodemon@^1.10.0', null ]
+34 silly cache add name=undefined spec="nodemon@^1.10.0" args=["nodemon@^1.10.0",null]
+35 verbose parsed url { pathname: 'nodemon@^1.10.0',
+35 verbose parsed url   path: 'nodemon@^1.10.0',
+35 verbose parsed url   href: 'nodemon@^1.10.0' }
+36 silly cache add name="nodemon" spec="^1.10.0" args=["nodemon","^1.10.0"]
+37 verbose parsed url { pathname: '^1.10.0', path: '^1.10.0', href: '^1.10.0' }
+38 verbose addNamed [ 'nodemon', '^1.10.0' ]
+39 verbose addNamed [ null, null ]
+40 verbose cache add [ 'rollup@^0.34.7', null ]
+41 silly cache add name=undefined spec="rollup@^0.34.7" args=["rollup@^0.34.7",null]
+42 verbose parsed url { pathname: 'rollup@^0.34.7',
+42 verbose parsed url   path: 'rollup@^0.34.7',
+42 verbose parsed url   href: 'rollup@^0.34.7' }
+43 silly cache add name="rollup" spec="^0.34.7" args=["rollup","^0.34.7"]
+44 verbose parsed url { pathname: '^0.34.7', path: '^0.34.7', href: '^0.34.7' }
+45 verbose addNamed [ 'rollup', '^0.34.7' ]
+46 verbose addNamed [ null, null ]
+47 verbose cache add [ 'rollup-watch@^2.5.0', null ]
+48 silly cache add name=undefined spec="rollup-watch@^2.5.0" args=["rollup-watch@^2.5.0",null]
+49 verbose parsed url { pathname: 'rollup-watch@^2.5.0',
+49 verbose parsed url   path: 'rollup-watch@^2.5.0',
+49 verbose parsed url   href: 'rollup-watch@^2.5.0' }
+50 silly cache add name="rollup-watch" spec="^2.5.0" args=["rollup-watch","^2.5.0"]
+51 verbose parsed url { pathname: '^2.5.0', path: '^2.5.0', href: '^2.5.0' }
+52 verbose addNamed [ 'rollup-watch', '^2.5.0' ]
+53 verbose addNamed [ null, null ]
+54 silly lockFile 6977ed00-browser-sync-2-14-0 browser-sync@^2.14.0
+55 verbose lock browser-sync@^2.14.0 C:\Users\Rado\AppData\Roaming\npm-cache\6977ed00-browser-sync-2-14-0.lock
+56 silly lockFile ea1d86c9-copyfiles-1-0-0 copyfiles@^1.0.0
+57 verbose lock copyfiles@^1.0.0 C:\Users\Rado\AppData\Roaming\npm-cache\ea1d86c9-copyfiles-1-0-0.lock
+58 silly lockFile 3ed8a66c-node-sass-3-8-0 node-sass@^3.8.0
+59 verbose lock node-sass@^3.8.0 C:\Users\Rado\AppData\Roaming\npm-cache\3ed8a66c-node-sass-3-8-0.lock
+60 silly lockFile 4a3f986c-nodemon-1-10-0 nodemon@^1.10.0
+61 verbose lock nodemon@^1.10.0 C:\Users\Rado\AppData\Roaming\npm-cache\4a3f986c-nodemon-1-10-0.lock
+62 silly lockFile 2a207e7f-rollup-0-34-7 rollup@^0.34.7
+63 verbose lock rollup@^0.34.7 C:\Users\Rado\AppData\Roaming\npm-cache\2a207e7f-rollup-0-34-7.lock
+64 silly lockFile 6b5c58b5-rollup-watch-2-5-0 rollup-watch@^2.5.0
+65 verbose lock rollup-watch@^2.5.0 C:\Users\Rado\AppData\Roaming\npm-cache\6b5c58b5-rollup-watch-2-5-0.lock
+66 info addNameTag [ 'browser-sync', '^2.14.0' ]
+67 info addNameTag [ 'node-sass', '^3.8.0' ]
+68 info addNameTag [ 'nodemon', '^1.10.0' ]
+69 info addNameTag [ 'rollup', '^0.34.7' ]
+70 info addNameTag [ 'rollup-watch', '^2.5.0' ]
+71 info addNameTag [ 'copyfiles', '^1.0.0' ]
+72 verbose url raw browser-sync
+73 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync' ]
+74 verbose url resolved https://registry.npmjs.org/browser-sync
+75 info trying registry request attempt 1 at 19:47:00
+76 verbose etag "DELD72GVRQNYZTQRUWRZRHVZ5"
+77 http GET https://registry.npmjs.org/browser-sync
+78 verbose url raw nodemon
+79 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+80 verbose url resolved https://registry.npmjs.org/nodemon
+81 info trying registry request attempt 1 at 19:47:00
+82 verbose etag "74IJID8XG82KE0N81P821TNOE"
+83 http GET https://registry.npmjs.org/nodemon
+84 verbose url raw rollup-watch
+85 verbose url resolving [ 'https://registry.npmjs.org/', './rollup-watch' ]
+86 verbose url resolved https://registry.npmjs.org/rollup-watch
+87 info trying registry request attempt 1 at 19:47:00
+88 verbose etag "1YS64T5FZ1DJMIVAF7HTJ66VN"
+89 http GET https://registry.npmjs.org/rollup-watch
+90 verbose url raw copyfiles
+91 verbose url resolving [ 'https://registry.npmjs.org/', './copyfiles' ]
+92 verbose url resolved https://registry.npmjs.org/copyfiles
+93 info trying registry request attempt 1 at 19:47:00
+94 verbose etag "EUR731G9II18YIKAPU187CSMT"
+95 http GET https://registry.npmjs.org/copyfiles
+96 verbose url raw node-sass
+97 verbose url resolving [ 'https://registry.npmjs.org/', './node-sass' ]
+98 verbose url resolved https://registry.npmjs.org/node-sass
+99 info trying registry request attempt 1 at 19:47:00
+100 verbose etag "2CWC51PMFEGFKEMR1H6L5APEK"
+101 http GET https://registry.npmjs.org/node-sass
+102 verbose url raw rollup
+103 verbose url resolving [ 'https://registry.npmjs.org/', './rollup' ]
+104 verbose url resolved https://registry.npmjs.org/rollup
+105 info trying registry request attempt 1 at 19:47:00
+106 verbose etag "9TI7S1D2UB701TBK082L0T6QN"
+107 http GET https://registry.npmjs.org/rollup
+108 http 304 https://registry.npmjs.org/copyfiles
+109 silly registry.get cb [ 304,
+109 silly registry.get   { date: 'Sat, 22 Oct 2016 16:47:07 GMT',
+109 silly registry.get     via: '1.1 varnish',
+109 silly registry.get     'cache-control': 'max-age=300',
+109 silly registry.get     etag: '"EUR731G9II18YIKAPU187CSMT"',
+109 silly registry.get     age: '0',
+109 silly registry.get     connection: 'keep-alive',
+109 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+109 silly registry.get     'x-cache': 'MISS',
+109 silly registry.get     'x-cache-hits': '0',
+109 silly registry.get     'x-timer': 'S1477154827.518929,VS0,VE195',
+109 silly registry.get     vary: 'Accept-Encoding' } ]
+110 verbose etag copyfiles from cache
+111 silly lockFile ea1d86c9-copyfiles-1-0-0 copyfiles@^1.0.0
+112 error Error: No compatible version found: copyfiles@'^1.0.0'
+112 error Valid install targets:
+112 error ["0.0.1","0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","0.2.2","1.0.0"]
+112 error     at installTargetsError (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:553:10)
+112 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:477:15
+112 error     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+112 error     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:218:7
+112 error     at Object.oncomplete (fs.js:297:15)
+113 error If you need help, you may report this log at:
+113 error     <http://github.com/isaacs/npm/issues>
+113 error or email it to:
+113 error     <npm-@googlegroups.com>
+114 error System Windows_NT 6.1.7601
+115 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+116 error cwd D:\00_PersonalKnowledgeBase\GitHub\JavaScriptApp2016
+117 error node -v v0.8.11
+118 error npm -v 1.1.62
+119 verbose exit [ 1, true ]
