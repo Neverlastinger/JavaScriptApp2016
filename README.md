@@ -1,6 +1,6 @@
 # JavaScript App Skeleton 2016
 
-This is a skeleton for creating JavaScript application in 2016. It will most probably be relevant in the years to come. See the blog post [here](http://radoslavpopov.com/starting-a-javascript-app-in-2016/).
+This is a skeleton for creating JavaScript application in 2016. It will most probably be relevant in the years to come. See the blog post [here](https://medium.com/@radoslav.popov/how-i-started-a-javascript-project-in-2016-with-bare-minimum-of-tools-78eae9b87238).
 
 ## What's the idea
 
